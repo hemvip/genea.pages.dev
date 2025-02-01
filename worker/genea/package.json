@@ -1,0 +1,21 @@
+{
+	"name": "genea",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.6.7",
+		"vitest": "3.0.4",
+		"wrangler": "^3.105.1"
+	},
+	"dependencies": {
+		"@aws-sdk/client-s3": "^3.735.0",
+		"bson": "^6.10.1",
+		"realm-web": "^2.0.1"
+	}
+}
