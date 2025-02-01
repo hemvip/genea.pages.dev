@@ -5,17 +5,15 @@
 	"scripts": {
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
-		"start": "wrangler dev",
-		"test": "vitest"
+		"start": "wrangler dev"
 	},
 	"devDependencies": {
-		"@cloudflare/vitest-pool-workers": "^0.6.7",
-		"vitest": "3.0.4",
-		"wrangler": "^3.105.1"
+		"wrangler": "^3.107.2"
 	},
 	"dependencies": {
-		"@aws-sdk/client-s3": "^3.735.0",
-		"bson": "^6.10.1",
+		"@aws-sdk/client-s3": "^3.740.0",
+		"bson": "^6.10.2",
+		"next-auth": "^4.24.11",
 		"realm-web": "^2.0.1"
 	}
 }
